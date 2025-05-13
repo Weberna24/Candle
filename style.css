@@ -544,6 +544,13 @@
   
   @media screen and (max-width: 1000px) {
 
+    .project-container{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+
     .service-title{
       margin-bottom: 0rem;
     }
