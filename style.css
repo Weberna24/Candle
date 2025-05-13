@@ -553,6 +553,17 @@
       align-items: center;
       justify-content: center;
       grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+
+    }
+
+    .service-content:nth-child(2){
+      height: 100%;
+      width: 100%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: 1fr;
       grid-template-rows: 0.2fr 0.2fr;
 
     }
