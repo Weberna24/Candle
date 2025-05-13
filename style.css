@@ -670,11 +670,10 @@
     }
 
     .project-container{
-      display: grid;
+      display: flex;
+      flex-direction: column-reverse;
       align-items: center;
       justify-content: center;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
     }
 
     .project-image{
