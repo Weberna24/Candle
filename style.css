@@ -145,6 +145,16 @@
   }
   
   @media screen and (max-width: 1024px) {
+
+    .service-text{
+        width: 100%;
+        height:100%;
+        top: 0px;
+        left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .service-container{
       width: 100%;
       height: 100%;
@@ -193,6 +203,7 @@
     }
   
     .service-card:nth-child(1){
+      display: none;
       position: relative;
       top: 0px;
       right: -50px;
@@ -200,8 +211,8 @@
   
     .service-card:nth-child(2){
       position: relative;
-      top: 120px;
-      right: -50px;
+      top: 0px;
+      right: 0px;
     }
     
   }
