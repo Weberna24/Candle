@@ -670,13 +670,16 @@
     }
 
     .project-container{
-      display: flex;
-      flex-direction: column-reverse;
+      display: grid;
       align-items: center;
       justify-content: center;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
     }
 
     .project-image{
+      width: 100%;
+      height: 100%;
       margin-bottom: 1.1rem;
     }
 
