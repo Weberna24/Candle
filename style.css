@@ -17,13 +17,13 @@
 
   .cover{
     width: 100%;
-    background-color: rgb(242, 239, 225);
+    background-color: #fff;
 }
   
   .navbar{
     display: flex;
     justify-items: center;
-    background-color: rgb(242, 239, 225);
+    background-color: #fff;
     padding: 0rem calc((100vw-1200px)/2);
     width: 100%;
     position: fixed;
@@ -182,7 +182,7 @@
     flex-direction: column;
     padding-top: 5rem;
     justify-content: center;
-    background-color: rgb(242, 239, 225);
+    background-color: #fff;
   }
 
   .title{
@@ -250,7 +250,7 @@
     flex-direction: column;
     padding: 2rem 2rem;
     justify-content: center;
-    background-color: rgb(242, 239, 225);
+    background-color: #fff;
   }
 
   .title{
@@ -317,7 +317,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(242, 239, 225);
+    background-color: #fff;
   }
 
   .paragraph{
